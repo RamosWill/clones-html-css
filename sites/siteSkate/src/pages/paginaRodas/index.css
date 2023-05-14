@@ -1,0 +1,458 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    text-decoration: none;
+    padding: 0px;
+}
+
+    #whatsapp {
+        padding: 7px;
+        border-radius: 70%;
+        background-color: rgb(41,167,26);
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: fixed;
+        left: 97.5%;
+        top: 95%;
+    }
+
+    #whatsapp img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #icons img {
+        height: 10px;
+        width: 10px;
+    }
+
+    #atendimento {
+        width: 21px;
+        height: 19px;
+    }
+
+    #search {
+        width: 27px;
+        height: 27px;
+    }
+    
+    #user {
+        width: 18px;
+        height: 18px;
+    }
+
+    #shop {
+        width: 21px;
+        height: 19px;
+    }
+
+    #dropdown img {
+        width: 12px;
+        height: 10px;
+    }
+
+    .olho {
+        width: 15px;
+        height: 15px;
+    }
+
+    .separacao {
+        width: 100%;
+        height: 4.2px;
+        background-color: black;
+    }
+
+    .card {
+        display: flex;
+        display: inline-block;
+        flex-direction: column;
+        border-radius: 16px;
+        margin: 12px; 
+        border: 0.4px solid rgb(240, 231, 231);
+        justify-content: center;
+        align-items: center;
+        transition: 0.8s;
+    }
+
+    .descricao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .precoCard {
+        display: flex;
+        flex-direction: row;
+        margin: 4px;
+        align-items: center;
+        
+    }
+
+    .precoCard h6 {
+        font-size: 17px;
+    }
+     .botoes {  /*!!!!!!!!!!*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        
+    }
+
+    .precoCard p {
+        font-size: 13px;
+        margin-right: 4px;
+    }
+
+    .linha {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .compraButton {
+        padding: 11px;
+        display: flex;
+        color: white;
+        background-color: black;
+        border-radius: 24px;
+        margin-right: 15px;
+        display: none;
+    }
+
+    
+
+    header > img {
+        width: 200px;
+        height: 80px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+#icons {
+    padding: 7px;
+}
+    .espiar{
+        padding: 11px;
+         border: 0.8px solid black;
+         border-radius: 24px;
+         display: flex;
+         flex-direction: row;
+         display: none;
+           
+    }
+
+    .descricao:hover .espiar {
+        display: flex;
+       
+    }
+
+    .descricao:hover .compraButton {
+        display: flex;
+    }
+
+    .card:hover {
+        box-shadow: 2px 2px 3px #dcdcdc;
+        transition: 0.5s
+    }
+
+
+    .imagem img {
+        height: 300px;
+        width: 300px;
+    }
+
+    #conteudo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #filtros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #filtros div {
+        display: flex;
+        flex-direction: row;
+        margin: 4px;
+    }
+
+    #filtros div input {
+        margin-right: 6px;
+    }
+
+    #precoTexto {
+        margin-top: 9px;
+    }
+
+    .valores {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #atePreco {
+        display: flex;
+        flex-grow: 2;
+    }
+
+    #filtroDePreco button {
+        display: flex;
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+        border: 1px solid grey;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #filtroDePreco {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #filtroDePreco input {
+        width: 75px;
+        height: 33px;
+    }
+
+    .valores {
+        margin: 5px;
+    }
+
+    .valores input {
+        border: 1px solid rgb(190, 190, 190);
+        border-radius: 12px;
+    }
+
+    #filtros input {
+        height: 20px;
+        width: 20px;
+    }
+
+    #faixa1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
+    }
+
+    #faixa1 div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+    #vendidos {
+        display: flex;
+        padding: 15px;
+        border: 1px solid rgb(190, 190, 190);
+        border-radius: 6px;
+    }
+
+    #navegador {
+        display: flex;
+        flex-direction: row;
+        width: 62%;
+    }
+
+    #dropdown {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 9px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+
+    #vendidos img {
+        height: 20px;
+        width: 20px;
+        margin-left: 60px;
+    }
+
+    #fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        background-color: white;
+        z-index: 3;
+        justify-content: center;
+    }
+
+    #dropdown div {
+        margin-right: 21px;
+    }
+
+    .separacaoFino {
+        height: 1px;
+        background-color: rgb(184, 182, 182);
+    }
+
+    #searchBar {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid rgb(0, 0, 0);
+        height: 44px;
+        width: 40%;
+        border-radius: 14px;
+    }
+
+    #searchBar input {
+        border: none;
+        height: 100%;
+        width: 100%;
+        margin: 20px;
+        
+    }
+
+    header article {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    header article div {
+        display: flex;
+        flex-direction: row;
+        margin: 9px;
+    }
+
+    header article div p {
+        margin-left: 7px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0,0,0,0.1);
+        justify-content: center;
+        justify-content: space-around;  
+        padding: 56px;
+    }
+
+    #separacaoInferior {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    footer section article {
+        display: flex;
+        flex-direction: column;
+        margin-right: 15%;
+    }
+
+    footer section article h4 {
+        font-size: 20px;
+    }
+
+    footer section article a {
+        font-size: 14px;
+        margin-top: 5%;
+    }
+
+    footer section article p {
+        font-size: 14px;
+        margin-top: 5%;
+    }
+
+    footer section {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+
+
+    .precoCard p {
+        text-decoration: line-through;
+    }
+
+    @media (max-width: 1200px) {
+        #dropdown {
+            
+        }
+
+       #dropdown div {
+
+       }
+
+        .linha {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 770px) {
+        #lateral {
+            display:  none;
+        }
+
+        .botoes {
+            display: block;
+        }
+
+        .imagem img {
+            width: 508px;
+            height: 508px;
+        }
+        
+        .card {
+            width: 508px;
+            height: 703px;
+
+        }
+
+        .card .descricao p {
+            font-size: 21px;
+        }
+
+        .card .separacao {
+            margin-bottom: 32px;
+        }
+
+
+        #icons {
+            display: none;
+        }
+
+        #dropdown {
+            display: none;
+        }
+
+        .card img {
+            width: auto;
+        }
+
+        header article {
+            display: none;
+        }
+
+        
+    }
