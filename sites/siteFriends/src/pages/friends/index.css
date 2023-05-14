@@ -1,0 +1,320 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+    .container {
+        background-color: #030328;
+    }
+
+    header img {
+        width: 160px;
+        height: 27px;
+    }
+
+    header {
+        display: flex;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.3);
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 6px;
+        align-items: center;
+        width: 100%;
+        font-family: 'gilroyBold';
+        letter-spacing: 0.2em;
+    }
+
+    .botoesNav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .botoesNav a{
+        margin: 8px;
+        font-size: 12px;
+    }
+
+    .estiloBotao {
+        padding: 14px;
+        background-color: rgb(181, 53, 246);
+        border-radius: 30px;
+        transition: 0.3s
+    }
+
+    .estiloBotao:hover {
+        background-color: white;
+        color: #030328;
+        transition: 0.7s
+    }
+
+
+    .faixa1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 44px;
+        font-family: 'gilroyRegular';
+    }
+
+    .faixa1 article {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+
+    .faixa1 article img {
+        width: 1110px;
+        height: 624px;
+        margin-top: 7px;
+    }
+
+    #faixaRoxa {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        background: url('https://hbomax-images.warnermediacdn.com/module-assets/gradient2.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com') 
+    }
+
+    #conteudoFaixaRoxa {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    #conteudoFaixaRoxa a {
+        margin-left: 80px;
+        letter-spacing: 0.2em;
+        font-family: 'gilroyBold';
+    }
+
+    #conteudoFaixaRoxa h1 {
+        font-family: 'gilroyRegular';
+        font-size: 36px;
+        letter-spacing: 0.05em;
+    }
+
+    
+    .faixa2 {
+        display: flex;
+        flex-direction: row;
+        font-family: 'gilroyRegular';
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        line-height: 1.6em;
+    }
+
+    .descricao {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .descricao p {
+        margin: 30px;
+    }
+
+    #episodios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .episodios {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .episodios nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .linha {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .descricaoEpisodio {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1128px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin: 18px;
+        width: 255px;
+    }
+
+    .card h6 {
+        font-size: 16px;
+        margin-top: 13px;
+        font-family: 'gilroyMedio';
+    }
+
+    .card p {
+        font-size: 12px;
+        margin-top: 13px;
+        line-height: 1.4em;
+        font-family: 'gilroyRegular';
+    }
+
+    .card img {
+        width: 255px;
+        height: 143px;
+    }
+    
+    .card a {
+        color: rgb(158, 134, 255);
+        transition: 0.6s;
+        font-family: 'gilroyRegular';
+        font-size: 12px;
+    }
+
+    .card a:hover {
+        color: white;
+        transition: 0.6s
+    }
+
+    .descricaoEpisodio h2 {
+        font-family: 'gilroyRegular';
+        font-size: 40px;
+    }
+
+    .descricaoEpisodio a {
+        color: rgb(158, 134, 255);
+        font-family: 'gilroyBold';
+        font-size: 16px;
+        letter-spacing: 0.18em;
+        transition: 0.6s
+    }
+
+    .descricaoEpisodio a:hover {
+        color: white;
+        transition: 0.6s
+    }
+
+    .faixa2 {
+        margin-bottom: 60px;
+    }
+
+
+    #interesse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 70px;         /* !!!  */
+    }
+
+    #textoInteresse {
+        display: flex;
+        width: 1128px;
+        justify-content: flex-start;
+    }
+
+    .agrupamento{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .linhaInteresse {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cardInteresse {
+        display: flex;
+        flex-direction: column;
+        margin: 18px;
+    }
+
+    .cardInteresse img {
+        width: 255px;
+        height: 143px;
+    }
+
+    #textoInteresse h1 {
+        font-family: 'gilroyRegular';
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .cardInteresse p {
+        font-size: 16px;
+        font-family: 'gilroyMedio';
+        margin-top: 20px;
+        font-weight: 0;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 12px;
+        font-family: 'gilroyRegular';
+        color: #9e86ff;
+        margin: 5px;
+    }
+
+    #boldContent {
+        letter-spacing: 0.1em;
+        font-size: 12.8px;
+        font-family: 'gilroyBold';
+    }
+
+    .row a {
+        margin: 8px;
+        margin-left: 16px;
+        margin-right: 16px;
+        color: #9e86ff;
+        transition: 0.1s;
+    }
+
+    .row a:hover {
+        color: white;
+        transition: 0.1s;
+    }
+
+    .row p {
+        color: #9e86ff;
+    }
+
+    #watermark h4 {
+        color: #9e86ff;
+        transition: 0.3s;
+    }
+
+    #watermark:hover  h4 {
+        color: red;
+        transition: 0.3s
+    }

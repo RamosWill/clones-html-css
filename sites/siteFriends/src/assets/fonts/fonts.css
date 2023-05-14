@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'gilroyMedio';
+    src: url('./Gilroy-Medium.1e8ac32cfb9ee12c65c8d4e99807a81f.woff2');
+}
+
+@font-face {
+    font-family: 'gilroyBold';
+    src: url('./Gilroy-Bold.390fb1506ba4436b844a0d796d431498.woff2');
+}
+
+@font-face {
+    font-family: 'gilroyRegular';
+    src: url('./Gilroy-Regular.c78720ba66ffe58324e722d0d0043b17.woff2');
+}
+
+@font-face {
+    font-family: 'street';
+    src: url('./street-bold.woff2');
+}
+
