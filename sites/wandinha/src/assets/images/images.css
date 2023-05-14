@@ -1,0 +1,39 @@
+#genero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+#entrarIcon {
+    background-image: url('./assets.png');
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+#bebe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ticket {
+    color: #63C3D1;
+    transform: rotate(135deg);
+    font-size: 18px;
+}
+
+
+#facebookIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#facebookIcon img {
+    height: 30px;
+    width: 30px;
+    margin-right: 7px;
+}
+

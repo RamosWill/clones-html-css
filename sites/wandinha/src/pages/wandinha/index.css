@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    background-color: #F5F5F5;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 19px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#entrar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+}
+
+    #wnadinha {
+        width: 450px;
+        height: 330px;
+        margin-right: 45px;
+    }
+
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        padding-right: 130px;
+        padding-left: 130px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+    }
+    
+
+    #detalhes {
+        display: flex;
+        flex-direction: column;
+        width: 475px;
+    }
+
+    #detalhes h1 {
+        margin-top: 23px;
+        margin-bottom: 18px;
+    }
+
+    section
+    #genero {
+        padding: 11px;
+        background-color: #F5F5F5;
+        width: 20%;
+        border-radius: 2.4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    #detalhes div {
+        margin-bottom: 9px;
+    }
+
+    #botaoCompra {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 77px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #63C3D1;
+        justify-content: center;
+        border-radius: 3px;
+        transition: 0.3s;
+        color: black
+
+    }
+
+    #botaoCompra:hover {
+        background-color: #89cdd8;
+        color:white;
+        transition: 0.3s;
+    }
+
+    article {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    nav {
+        display: flex;
+        width: 900px;
+        flex-direction: column;
+    }
+    nav div {
+        background-color: #63C3D1;
+        width: 8%;
+        text-align: center;
+        padding: 8px;
+        border-radius: 3px;
+        margin: 30px 0px 20px 0px ;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        width:  900px;
+    }
+    section div {
+        background-color: #F5F5F5;
+    }
+
+    footer {
+        display: flex;
+        background-color: #1D4459;
+        flex-direction: column;
+        padding: 40px;
+        color: white;
+    }
+
+    footer a {
+        color: white;
+    }
+
+    .informacoes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        
+    }
+
+
+    #detalhes div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #detalhes div > div{
+        margin-right: 11px;
+        color: #63C3D1;
+    }
+
+    #sobreEvento {
+        margin-top: 50px;
+        margin-bottom: 24px;
+    }
+
+    .colunas {
+        display: flex;
+        flex-direction: column;
+        margin: 24px;
+        justify-content: flex-start;
+        
+    }
+
+    #entrar {
+        background-color: #63C3D1;
+        color:white;
+        padding: 11px;
+        border-radius: 2.4;
+    }
+
+    #entrar:hover {
+        background-color: #89cdd8;
+    }
+
+    .colunas a {
+        font-size: 16px;
+    }
+
+    .linha {
+        padding: 13px;
+        padding-left: 20px;
+    }
+
+   
+
+    hr {
+        width: 90%;
+        align-self: center;
+        border-color: #5B869D;
+    }
+
+    .azul {
+        color: #63C3D1;
+    }
+
+    #azulll{
+        margin-bottom: 16px;
+        color: #63C3D1;
+    }
+
+    .azule {
+        color: #5B869D;
+        align-self: center;
+    }
+
+    footer {
+        margin-top: 30px;
+    }
+
+    #entrar h4 {
+        font-size: unset;
+        font-family: 'fonte4';
+    }
+
+
+    hr {
+        margin-bottom: 40px;
+    }
+    
+    .dataHorario {
+        width: 80px;
+    }
+
+
+    .overflow {
+        padding: 0px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        position: fixed;
+            bottom: 0;
+        width: 100%;
+        display: none;
+        height: 60px;
+        justify-content: center;
+    }
+
+    .overflow > #botaoCompra {
+       
+    
+            display: flex;
+            
+            align-items: center;
+            width: 90%;
+            margin-top: 0px;
+            
+            background-color: #63C3D1;
+            justify-content: center;
+            border-radius: 3px;
+            transition: 0.3s;
+            color: black;
+           
+            
+    }

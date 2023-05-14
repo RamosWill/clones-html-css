@@ -1,0 +1,55 @@
+@media (max-width: 1000px) {
+    .imagemWandinha {
+        width: 300px;
+        overflow: hidden;
+        margin-right: 40px;
+    }
+
+
+    nav {
+        width: 800px;
+    }
+
+    section {
+        width: 800px;
+    }
+}
+
+@media (max-width: 860px) {
+    article {
+        flex-direction: column;
+    }
+
+    .imagemWandinha {
+        width: 100%;
+    }
+
+    nav {
+        width: 500px;
+    }
+
+    section {
+        width: 500px;
+    }
+
+    #detalhes  #botaoCompra {
+        width: 90vw;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        align-items: end;
+        display: none;
+    }
+
+    
+    .informacoes {
+        flex-direction: column;
+        align-items: start;
+    }
+
+
+    .overflow {
+        display: flex;
+
+    }
+}
